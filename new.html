@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>IDK</title>
+
+        <link rel="stylesheet" href="design_tol.css">
+    </head>
+    <body>
+         <script>
+         function createHeart() {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.innerHTML = "❤";
+        document.body.appendChild(heart);
+
+        heart.style.left = Math.random() * 100 + "vw";
+
+       heart.style.animationDuration = (2 + Math.random() * 3) + "s";
+
+       setTimeout(() => {
+       heart.remove();
+       }, 5000);
+       }
+
+       setInterval(createHeart, 500);
+        </script>
+        <link rel="stylesheet" href="design_tol.css">
+        <section id="special-yis"style="background-color: rgb(248, 248, 248);">
+                <div class="center-container">
+                    <img src="silly emoji.jpg" alt="emoji">
+                    <p>
+                        HELLO PRINCESS, you might find this weird but please read it all.
+                    </p>
+                </div>
+        </section>
+
+        <section id="special-yis"style="background-color: rgb(248, 248, 248);">
+                <div class="center-container">
+                    <img src="witwiw.jpg" alt="emoji">
+                    <p>
+                        But first, have this..
+                    </p>
+                </div>
+        </section>
+
+        <section id="special-yis"style="background-color: rgb(248, 248, 248);">
+                <div class="center-container">
+                    <img src="witwiw.jpg" alt="emoji">
+                    <p>
+                        CLICK THIS OR IMMA CRY
+                    </p>
+                    <a href="message.html" class="my-button">Click this</a>
+                </div>
+        </section>
+    </body>
+</html>
